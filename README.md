@@ -2,6 +2,7 @@
 C++ to Rust translation project
 
 Repository Structure
+
 cpp2rust-logengine/
    
 ├── CMakeLists.txt
