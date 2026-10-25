@@ -4,7 +4,6 @@ C++ to Rust translation project
 Repository Structure
 
 cpp2rust-logengine/
-
 ├── CMakeLists.txt
 ├── scripts/
 │   └── gen_logs.py
@@ -14,7 +13,7 @@ cpp2rust-logengine/
     └── src/
         ├── mmap_reader.c
         ├── parser.cpp
-        └──- main.cpp
+        └── main.cpp
 
    
     └── src/
