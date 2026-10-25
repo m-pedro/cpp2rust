@@ -1,5 +1,4 @@
-# cpp2rust
-C++ to Rust translation project
+# cpp2rust - a C++ to Rust translation project
 
 A high-performance HTTP access log parser and latency aggregator, incrementally migrated from **legacy C11/C++17** (`mmap` + raw pointer arithmetic) to **safe, zero-copy Rust** (`memmap2` + `&[u8]` slices + `rayon` data parallelism) over 15 daily commits.
 
