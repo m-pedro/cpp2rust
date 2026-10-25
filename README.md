@@ -20,3 +20,14 @@ cpp2rust-logengine/
         ├── mmap_reader.c
         ├── parser.cpp
         └── main.cpp
+        cpp2rust-logengine/
+├── CMakeLists.txt
+├── scripts/
+│   └── gen_logs.py
+└── cpp/
+    ├── include/
+    │   └── log_engine.h
+    └── src/
+        ├── mmap_reader.c
+        ├── parser.cpp
+        └── main.cpp
