@@ -2,9 +2,7 @@
 C++ to Rust translation project
 
 Repository Structure
-
-cpp2rust-logengine/
-   
+```text
 cpp2rust-logengine/
 ├── CMakeLists.txt
 ├── scripts/
@@ -16,4 +14,4 @@ cpp2rust-logengine/
         ├── mmap_reader.c
         ├── parser.cpp
         └── main.cpp
-        
+```
