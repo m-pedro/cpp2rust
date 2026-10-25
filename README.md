@@ -6,11 +6,14 @@ cpp2rust-logengine/
 
 ├── CMakeLists.txt
 
-├── scripts
+├── scripts/
+
 │   └── gen_logs.py
 
-└── cpp
-    ├── include
+└── cpp/
+    
+    ├── include/
+    
     │   └── log_engine.h
    
     └── src/
