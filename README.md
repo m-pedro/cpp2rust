@@ -75,7 +75,7 @@ Elapsed Time   : 8.40 ms
 
 - [x] **Day 1:** Initialize CMake build system and deterministic synthetic HTTP log generator (`scripts/gen_logs.py`)
 - [x] **Day 2:** Implement POSIX `mmap` file reader (`mmap_reader.c`) and raw pointer log line parser (`parser.cpp`)
-- [ ] **Day 3:** Add multithreaded status code, top-IP, and p95/p99 latency aggregator (`aggregator.cpp`)
+- [x] **Day 3:** Add multithreaded status code, top-IP, and p95/p99 latency aggregator (`aggregator.cpp`)
 - [ ] **Day 4:** Add AddressSanitizer, UndefinedBehaviorSanitizer, and golden parity test output
 - [ ] **Day 5:** Expose `extern "C"` ABI wrapper headers for incremental Rust FFI calls
 - [ ] **Day 6:** Initialize Cargo workspace and link `liblegacy.a` via `build.rs`
