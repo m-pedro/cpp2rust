@@ -1,0 +1,16 @@
+total_lines=100000
+parse_failures=0
+total_bytes=821547637
+status_2xx=82900
+status_3xx=5012
+status_4xx=10059
+status_5xx=2029
+avg_latency_ms=32.7393
+p95_latency_ms=43.66
+p99_latency_ms=515.88
+max_latency_ms=949.48
+top_ip_1=198.51.100.14:12782
+top_ip_2=10.0.0.42:12757
+top_ip_3=192.0.2.199:12591
+top_ip_4=10.24.12.9:12459
+top_ip_5=172.31.255.1:12443
