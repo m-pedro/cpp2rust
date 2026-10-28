@@ -1,0 +1,14 @@
+[package]
+name = "cpp2rust"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cc = "1.0"
+
+[dev-dependencies]
+tempfile = "3.10" # For safe temporary file creation during tests
