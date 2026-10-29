@@ -43,4 +43,12 @@ add_executable(test_engine
 )
 target_link_libraries(test_engine PRIVATE legacy)
 add_test(NAME LegacyEngineTests COMMAND test_engine)
+)
+add_library(legacy STATIC
+    cpp/src/mmap_reader.c
+    cpp/src/parser.cpp
+    cpp/src/aggregator.cpp
+    cpp/src/c_api.cpp
+)
+target_link_libraries(legacy PUBLIC Threads::Threads)
 
