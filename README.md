@@ -77,12 +77,12 @@ Elapsed Time   : 8.40 ms
 - [x] **Day 2:** Implement POSIX `mmap` file reader (`mmap_reader.c`) and raw pointer log line parser (`parser.cpp`)
 - [x] **Day 3:** Add multithreaded status code, top-IP, and p95/p99 latency aggregator (`aggregator.cpp`)
 - [x] **Day 4:** Add AddressSanitizer, UndefinedBehaviorSanitizer, and golden parity test output
-- [ ] **Day 5:** Expose `extern "C"` ABI wrapper headers for incremental Rust FFI calls
-- [ ] **Day 6:** Initialize Cargo workspace and link `liblegacy.a` via `build.rs`
-- [ ] **Day 7:** Add Rust FFI bindings (`src/ffi.rs`) and verify output parity against C++ golden output
-- [ ] **Day 8:** Define idiomatic zero-copy Rust `LogRecord<'a>` struct and `ParseError` enum
-- [ ] **Day 9:** Replace C `mmap_reader.c` with safe Rust `memmap2` wrapper and RAII `Drop` semantics
-- [ ] **Day 10:** Port C++ pointer-arithmetic parser to zero-copy Rust `&[u8]` slice combinators
+- [x] **Day 5:** Expose `extern "C"` ABI wrapper headers for incremental Rust FFI calls
+- [x] **Day 6:** Initialize Cargo workspace and link `liblegacy.a` via `build.rs`
+- [x] **Day 7:** Add Rust FFI bindings (`src/ffi.rs`) and verify output parity against C++ golden output
+- [x] **Day 8:** Define idiomatic zero-copy Rust `LogRecord<'a>` struct and `ParseError` enum
+- [x] **Day 9:** Replace C `mmap_reader.c` with safe Rust `memmap2` wrapper and RAII `Drop` semantics
+- [x] **Day 10:** Port C++ pointer-arithmetic parser to zero-copy Rust `&[u8]` slice combinators
 - [ ] **Day 11:** Add malformed-input and property-based edge case tests in Rust
 - [ ] **Day 12:** Replace `std::thread` + `std::mutex` aggregator with lock-free `Rayon` map-reduce
 - [ ] **Day 13:** Remove legacy C++ FFI bridge and enforce `#[forbid(unsafe_code)]` on parser/aggregator
