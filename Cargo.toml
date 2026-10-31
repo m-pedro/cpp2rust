@@ -1,9 +1,8 @@
 [package]
 name = "cpp2rust"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
-description = "Incremental migration of a high-performance C11/C++17 HTTP log engine to safe Rust"
-build = "build.rs"
+description = "Zero-copy HTTP access log parser and Rayon parallel aggregator migrated from C11/C++17"
 
 [lib]
 name = "cpp2rust"
@@ -17,5 +16,9 @@ path = "src/main.rs"
 memmap2 = "0.9"
 rayon = "1.10"
 
-[build-dependencies]
-cc = "1.1"
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "engine_bench"
+harness = false
